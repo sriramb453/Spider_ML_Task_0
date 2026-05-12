@@ -1,10 +1,14 @@
 Project Overview
+
 This project builds a custom Linear Regression model entirely from scratch using Python. It includes Lasso (L1) and Ridge (L2) regularization to improve predictions and prevent overfitting.
 
+
 The Data
+
 We used the California Housing dataset. Before training, the data was scaled (standardized) so that all features—like house age, rooms, and population—are treated equally by the model.
 
 Results
+
 Ridge (L2) performed slightly better, getting a lower Mean Squared Error (0.58) compared to Lasso (0.61) on the test data.
 
 The training graphs show a steep, quick drop in loss, meaning our custom model successfully learned and minimized errors rapidly.
